@@ -26,7 +26,7 @@ def get_db():
 #This was when we used raw sql to connect to database without using orm
 # while True:
 #     try:
-#         conn = psycopg2.connect(host='localhost', database='fastapi', user='postgres', password='Treasure@123', cursor_factory=RealDictCursor)
+#         conn = psycopg2.connect(host='localhost', database='fastapi', user='postgres', password=, cursor_factory=RealDictCursor)
 #         cursor = conn.cursor()
 #         print("Database connection was succesfull!")
 #         break
